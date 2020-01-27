@@ -18,7 +18,7 @@ for(i=0;i<buttons.length;i++){
 let colours = ["#F9B3D1", "#89259F", "#ED254E","#87CBAC","white"]
 function textColour(i){
     setTimeout(() => {
-        buttons[i].style.color = "#8a8a8a";
+        buttons[i].style.color = "white";
     }, i * 500 + 2000);
 }
 
