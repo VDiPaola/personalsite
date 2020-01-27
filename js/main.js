@@ -88,9 +88,6 @@ document.getElementById("name").addEventListener("mouseout", function(){
 document.getElementById('link1').addEventListener('click', function(){
     window.location.pathname = '/personalsite/projects.html'
 })
-document.getElementById('link2').addEventListener('click', function(){
-    openInNewTab('https://docs.google.com/document/d/1HmkF8xeqbXSsCwJjISX4zmW7Gmzev4_QZ3RhJ-YDRH8/edit?usp=sharing')
-})
 document.getElementById('link3').addEventListener('click', function(){
     window.location.pathname = '/personalsite/contact.html'
 })
