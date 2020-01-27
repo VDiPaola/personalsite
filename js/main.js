@@ -86,7 +86,7 @@ document.getElementById("name").addEventListener("mouseout", function(){
 
 //links
 document.getElementById('link1').addEventListener('click', function(){
-    window.location.pathname = 'projects.html'
+    window.location.pathname += '/projects.html'
 })
 document.getElementById('link2').addEventListener('click', function(){
     window.location.pathname = 'cv.html'
@@ -95,5 +95,5 @@ document.getElementById('link3').addEventListener('click', function(){
     window.location.pathname = 'contact.html'
 })
 document.getElementById('link4').addEventListener('click', function(){
-    window.location.pathname = 'aboutme.html'
+    window.location.pathname += '/aboutme.html'
 })
