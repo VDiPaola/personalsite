@@ -89,7 +89,7 @@ document.getElementById('link1').addEventListener('click', function(){
     window.location.pathname += 'projects.html'
 })
 document.getElementById('link2').addEventListener('click', function(){
-    window.location.pathname += 'cv.html'
+    openInNewTab('https://docs.google.com/document/d/1HmkF8xeqbXSsCwJjISX4zmW7Gmzev4_QZ3RhJ-YDRH8/edit?usp=sharing')
 })
 document.getElementById('link3').addEventListener('click', function(){
     window.location.pathname += 'contact.html'
@@ -97,3 +97,8 @@ document.getElementById('link3').addEventListener('click', function(){
 document.getElementById('link4').addEventListener('click', function(){
     window.location.pathname += 'aboutme.html'
 })
+
+function openInNewTab(url) {
+    var win = window.open(url, '_blank');
+    win.focus();
+  }

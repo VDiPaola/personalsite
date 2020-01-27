@@ -1,0 +1,76 @@
+
+#aboutme{
+    color:white;
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 35vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#contact{
+    color:white;
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 30vh;
+    padding-left: 10%;
+    padding-right: 10%;
+   margin-left: 27.5%;
+}
+
+#projects{
+    color:white;
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 25vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 31%;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow: hidden;
+    background-color: white;
+}
+#page{
+    color:rgb(0, 0, 0);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    top:0vh;
+
+
+    font-family: 'Cinzel', serif;
+    text-align: center;
+
+    cursor: default;
+}
+
+#back{
+    background-color: white;
+    border:none;
+    color:black;
+    position: absolute;
+    width:50%;
+    height:5vh;
+    font-size: 1.5vw;
+    left:25%;
+}
+#back:hover{
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+    margin-top: 10%;
+}
